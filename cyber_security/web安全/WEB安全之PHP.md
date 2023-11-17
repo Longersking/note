@@ -193,3 +193,32 @@ var_dump(intval(0.58*100.0)) =>  int(57)
 可以通过特殊编码绕过
 
 例如 %0a666
+
+### 五、in_array函数
+
+作用检测数组中是否存在某一个值，若第三个参数为true则为强检查
+
+```php
+<?php 
+
+header("Content-Type:text/html;charset=utf-8");
+$flag = "you are right!";
+
+$example = [1,2,3];
+$page = $_GET['i'];
+if(in_array($page,$example)){
+    echo "yes";
+}
+
+?>
+```
+
+![image-20231117153951608](http://111.229.225.13:81/i/2023/11/17/sqw0jp-2.png)
+
+### 六、preg_match函数
+
+可以匹配正则表达式，同时无法匹配数组类型，所以可以采用数组绕过
+
+### 七、str_replace函数
+
+过滤指定字符串，但是无法迭代过滤，因此可以考虑通过双写过滤
