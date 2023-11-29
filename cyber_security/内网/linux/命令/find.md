@@ -5,6 +5,10 @@
 目前已用
 
 - ```bash
+  find ./ 下一级目录存在的文件 -exec "/bash/sh" \; #权限提升
+  ```
+
+- ```bash
   find . -type f /var/www/html/webadmin/S0mextras #在当前目录和指定目录下查找普通文件 
   ```
 
@@ -14,6 +18,14 @@
 
 - ```bash
   find / -name flag* #从根目录查找文件名前4个字符为flag的文件
+  ```
+
+-   ```bash
+    find / -perm -u=s -type f #从根目录递归查找所有root权限的文件
+    ```
+
+- ```bash
+  find / -type f -name "*config*" -o -name "*setting*" #从根目录递归查找文件名带有config或者setting的文件
   ```
 
 - 
