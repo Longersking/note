@@ -2,7 +2,7 @@
 
 [Linux下find命令详解_linux find 命令-CSDN博客](https://blog.csdn.net/l_liangkk/article/details/81294260)
 
-目前已用
+## 目前已用
 
 - ```bash
   find ./ 下一级目录存在的文件 -exec "/bash/sh" \; #权限提升
