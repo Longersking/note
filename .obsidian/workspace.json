@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "054f04d6a41d1e8c",
+        "id": "6da6f99dd27da5ce",
         "type": "tabs",
         "children": [
           {
-            "id": "c30ac17537a37b9b",
+            "id": "499d97f548dd7b4b",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "考研/数二/高数/函数篇/函数极限/image-20240327230847884.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -63,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -83,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考研/数二/高数/函数篇/函数极限/image-20240327230847884.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考研/数二/高数/函数篇/函数极限/image-20240327230847884.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "考研/数二/高数/函数篇/函数极限/image-20240327230847884.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,8 +139,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c30ac17537a37b9b",
+  "active": "34c389fad449821a",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "CVE/2024/POC-main/POC-main/云时空社会化商业ERP系统validateLoginName接口处存在SQL注入漏洞.md",
+    "数据库/mysql/mysql基本操作.md",
+    "考研/数二/高数/函数篇/函数极限/image-20240327230847884.png",
     "考研/数二/高数/函数篇/函数极限/image-20240327230750077.png",
     "考研/数二/高数/函数篇/函数极限/image-20240327230141038.png",
     "考研/数二/高数/函数篇/函数极限/image-20240327225927224.png",
