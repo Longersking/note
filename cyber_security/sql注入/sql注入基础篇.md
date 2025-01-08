@@ -34,6 +34,8 @@
 
   靶场DVWA windows11 phpstudy low级别
 
+
+
   ![image-20231128190231751](http://111.229.225.13:81/i/2023/11/28/vgmfy2-2.png)
 
   
@@ -90,3 +92,4 @@ union 可以合并两个及以上select语句查询的结果集
 
 这里推荐一位博客[SQL注入漏洞全面总结_永不落的梦想的博客-CSDN博客](https://blog.csdn.net/m0_73185293/article/details/131754058?spm=1001.2014.3001.5501)
 
+[[sql注入绕过篇]]

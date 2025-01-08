@@ -32,6 +32,10 @@
   nmap -A //高级检测包括操作系统检测、版本检测、脚本扫描和traceroute。
   ```
 
+- ```shell
+  nmap -sS -Pn -n --open --min-hostgroup 4 --min-parallelism 1024 --host-timeout 30 -T4 -v -oG result.txt -iL ip.txt //--open只扫描开放端口 –min-hostgroup 4：调整并行组大小 –min-parallelism 1024 调整并行组深度 –host-timeout 30：检测超时的跳过 -v：打印详细扫描过程 -oG：输出为比较人性化的格式，一条记录一行，后期好处理 -iL：载入ip段文件，批量扫，不用一条条执行了。
+  ```
+
 - 
 
 - 

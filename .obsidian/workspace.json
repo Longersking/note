@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6da6f99dd27da5ce",
+        "id": "f9f540ecdccee2b5",
         "type": "tabs",
         "children": [
           {
-            "id": "499d97f548dd7b4b",
+            "id": "d035adf5637f3a7b",
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -35,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -50,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -58,11 +64,12 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "vue3/vue3 基础内容.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "vue3 基础内容 的反向链接列表"
             }
           },
           {
@@ -98,9 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "vue3/vue3 基础内容.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "vue3 基础内容 的出链列表"
             }
           },
           {
@@ -111,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -119,7 +134,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "vue3/vue3 基础内容.md"
+              },
+              "icon": "lucide-list",
+              "title": "vue3 基础内容 的大纲"
             }
           }
         ]
@@ -139,15 +158,34 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "34c389fad449821a",
+  "active": "d035adf5637f3a7b",
   "lastOpenFiles": [
+    "java代码审计基础篇/java代码审计sql注入篇.md",
+    "Pasted image 20250108162951.png",
+    "Pasted image 20250108162737.png",
+    "Pasted image 20250108162643.png",
+    "Pasted image 20250108162506.png",
+    "Pasted image 20250108162354.png",
+    "Pasted image 20250108162309.png",
+    "Pasted image 20250108162252.png",
+    "Pasted image 20250108162249.png",
+    "Pasted image 20250108161412.png",
+    "Pasted image 20250108161231.png",
+    "vue3/vue3 基础内容.md",
     "未命名.canvas",
+    "vue3/vue搭建配置介绍.md",
+    "cyber_security/sql注入/sql注入绕过篇.md",
+    "cyber_security/sql注入/sql注入基础篇.md",
+    "java代码审计基础篇/基础篇03.md",
+    "[[sql注入基础篇.md",
+    "sql.md",
+    "未命名 1.md",
+    "未命名.md",
+    "java代码审计基础篇/基础篇04.md",
+    "java代码审计基础篇/实战篇01-mblog.md",
+    "java代码审计基础篇",
     "CVE/2024/POC-main/POC-main/云时空社会化商业ERP系统validateLoginName接口处存在SQL注入漏洞.md",
     "数据库/mysql/mysql基本操作.md",
-    "考研/数二/高数/函数篇/函数极限/image-20240327230847884.png",
-    "考研/数二/高数/函数篇/函数极限/image-20240327230750077.png",
-    "考研/数二/高数/函数篇/函数极限/image-20240327230141038.png",
-    "考研/数二/高数/函数篇/函数极限/image-20240327225927224.png",
     "考研/数二/README.md"
   ]
 }
