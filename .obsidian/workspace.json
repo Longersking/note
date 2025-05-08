@@ -11,10 +11,14 @@
             "id": "1383426b1d6961be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "考研/数二",
+                "bFile": "考研/数二",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 数二"
             }
           }
         ]
@@ -177,8 +181,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,7 +201,7 @@
       "daily-notes-editor:Open Daily Note Editor": false
     }
   },
-  "active": "f7bb8eaec6ed4eb9",
+  "active": "b5cd9982b9971c83",
   "lastOpenFiles": [
     "python/ai/machine_learn/机器学习流程/image-20240429111001922.png",
     "python/ai/machine_learn/机器学习流程/image-20240429111100463.png",
