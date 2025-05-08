@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f9f540ecdccee2b5",
+        "id": "5083d2eca6a069b1",
         "type": "tabs",
         "children": [
           {
-            "id": "d035adf5637f3a7b",
+            "id": "1383426b1d6961be",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -36,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/vue3 基础内容.md",
+                "file": "templates/Web安全模板.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "vue3 基础内容 的反向链接列表"
+              "title": "Web安全模板.md 的反向链接列表"
             }
           },
           {
@@ -108,12 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vue3/vue3 基础内容.md",
+                "file": "2025-04-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "vue3 基础内容 的出链列表"
+              "title": "2025-04-24 的出链列表"
             }
           },
           {
@@ -123,7 +124,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -135,18 +138,51 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue3/vue3 基础内容.md"
+                "file": "2025-04-24.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "vue3 基础内容 的大纲"
+              "title": "2025-04-24 的大纲"
+            }
+          },
+          {
+            "id": "0dd49e764967b75b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "96dc5ce3ec19dc9d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "0d2cd5e30fb93e08",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,37 +191,56 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "daily-notes-editor:Open Daily Note Editor": false
     }
   },
-  "active": "d035adf5637f3a7b",
+  "active": "f7bb8eaec6ed4eb9",
   "lastOpenFiles": [
+    "python/ai/machine_learn/机器学习流程/image-20240429111001922.png",
+    "python/ai/machine_learn/机器学习流程/image-20240429111100463.png",
+    "javaweb/jsp+servlet/jsp结合servlet/image-20240101145016039.png",
     "java代码审计基础篇/java代码审计sql注入篇.md",
-    "Pasted image 20250108162951.png",
-    "Pasted image 20250108162737.png",
-    "Pasted image 20250108162643.png",
-    "Pasted image 20250108162506.png",
-    "Pasted image 20250108162354.png",
-    "Pasted image 20250108162309.png",
-    "Pasted image 20250108162252.png",
-    "Pasted image 20250108162249.png",
-    "Pasted image 20250108161412.png",
-    "Pasted image 20250108161231.png",
-    "vue3/vue3 基础内容.md",
-    "未命名.canvas",
-    "vue3/vue搭建配置介绍.md",
-    "cyber_security/sql注入/sql注入绕过篇.md",
-    "cyber_security/sql注入/sql注入基础篇.md",
+    "2025-05-01.md",
+    "resource/Pasted image 20250108153747.png",
+    "resource/Pasted image 20250106010459.png",
+    "resource/Pasted image 20250108174207.png",
+    "resource/Pasted image 20250108174152.png",
+    "resource/Pasted image 20250108173722.png",
+    "resource/Pasted image 20250108173714.png",
+    "resource/Pasted image 20250108173428.png",
+    "resource/Pasted image 20250108173416.png",
+    "resource",
+    "新建文件夹",
+    "2025-05-02.md",
+    "templates/Web安全模板.md.md",
+    "templates/代码审计模板.md.md",
     "java代码审计基础篇/基础篇03.md",
-    "[[sql注入基础篇.md",
-    "sql.md",
-    "未命名 1.md",
-    "未命名.md",
     "java代码审计基础篇/基础篇04.md",
     "java代码审计基础篇/实战篇01-mblog.md",
-    "java代码审计基础篇",
-    "CVE/2024/POC-main/POC-main/云时空社会化商业ERP系统validateLoginName接口处存在SQL注入漏洞.md",
-    "数据库/mysql/mysql基本操作.md",
-    "考研/数二/README.md"
+    "2025-04-27.md",
+    "2025-04-28.md",
+    "2025-04-29.md",
+    "2025-04-24.md",
+    "2025-04-25.md",
+    "2025-04-26.md",
+    "vue3/vue3 基础内容.md",
+    "templates",
+    "未命名看板.md",
+    "未命名看板 1.md",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "python/fastapi/tortoise数据库迁移.md",
+    "python/fastapi/fastapi依赖注入.md",
+    "python/fastapi/fastapi路由配置.md",
+    "python/fastapi/FastAPI结合ORM数据库框架.md",
+    "python/fastapi/fastapi环境配置启动.md",
+    "python/fastapi/fastapi挂载静态资源.md",
+    "python/fastapi/fastapi创建基于jwt的token认证.md",
+    "vue3/vue搭建配置介绍.md",
+    "java代码审计基础篇"
   ]
 }
