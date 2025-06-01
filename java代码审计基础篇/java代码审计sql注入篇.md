@@ -1,4 +1,4 @@
-[[sql注入基础篇]]
+ [[sql注入基础篇]]
 - ## Java常用数据库连接方式
 	 1. JDBC
 	 2. MyBatis
@@ -80,7 +80,7 @@
 	 解码
 	 ![[Pasted image 20250108162737.png]]
 	 尝试改写参数
-	 “supplier”:"'and sleep(5)"
+	 “supplier”:"'and sleep(5)--"
 	 这里是已经返回的数据包在解码查看的，原始数据包还是要url编码，否则会报错
 	 ![[Pasted image 20250108162951.png]]
 	 可以发现已经成功延时了

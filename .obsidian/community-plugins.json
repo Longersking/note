@@ -1,17 +1,11 @@
 [
-  "obsidian-tasks-plugin",
-  "dataview",
-  "calendar",
   "quickadd",
   "global-proxy",
-  "obsidian-excalidraw-plugin",
-  "table-editor-obsidian",
   "obsidian-snippetor",
   "better-export-pdf",
-  "obsidian-hider",
   "obsidian-style-settings",
-  "obsidian-admonition",
   "codeblock-customizer",
   "daily-notes-editor",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-excalidraw-plugin"
 ]
