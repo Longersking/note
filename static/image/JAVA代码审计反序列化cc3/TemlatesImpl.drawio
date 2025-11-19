@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="第 1 页" id="FWCJDvt0jAD2zlvgU7ar">
+    <mxGraphModel dx="1859" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-1" value="TemlatesImpl.newTransformer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="240" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-2" value="newTransformer-&amp;gt;getTransletInstance()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCrDZdcAzfVR2MJXr6x1-1" target="DCrDZdcAzfVR2MJXr6x1-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-4" value="getTransletInstance-&amp;gt;defineTransletClasses()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DCrDZdcAzfVR2MJXr6x1-2" target="DCrDZdcAzfVR2MJXr6x1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="330" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-6" value="defineTransletClasses-&amp;gt;defineClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="360" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DCrDZdcAzfVR2MJXr6x1-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCrDZdcAzfVR2MJXr6x1-4" target="DCrDZdcAzfVR2MJXr6x1-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="330" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
