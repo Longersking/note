@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1dba5c3e0199571c",
+        "id": "aacaf0b28202fa3c",
         "type": "tabs",
         "children": [
           {
-            "id": "5559b73c794681ed",
+            "id": "fe8875b632724aa8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 315.5
   },
   "right": {
     "id": "76cb99db86b8c332",
@@ -154,6 +154,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -163,8 +164,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec5785cabd778a09",
+  "active": "fe8875b632724aa8",
   "lastOpenFiles": [
+    "新建 文本文档.txt",
     "MyNotes/blog/config.toml",
     "MyNotes/blog/新建 文本文档.txt",
     "MyNotes/blog/themes",
@@ -175,7 +177,6 @@
     "MyNotes/blog",
     "MyNotes/新建文件夹",
     "MyNotes",
-    "MyNote",
     "static/image/简历/file-20250803002226872.png",
     "static/image/简历/file-20250803002146051.png",
     "static/image/简历/file-20250803002132894.png",
