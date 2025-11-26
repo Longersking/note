@@ -11,10 +11,14 @@
             "id": "fe8875b632724aa8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "MyNotes/blog/content/若依框架网站漏洞分析.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "若依框架网站漏洞分析"
             }
           }
         ]
@@ -177,6 +181,8 @@
   },
   "active": "fe8875b632724aa8",
   "lastOpenFiles": [
+    "MyNotes/blog/content/若依框架网站漏洞分析.md",
+    "MyNotes/blog/static/image",
     "新建 文本文档.txt",
     "MyNotes/blog/config.toml",
     "MyNotes/blog/新建 文本文档.txt",
@@ -186,8 +192,6 @@
     "MyNotes/blog/static",
     "MyNotes/blog/content",
     "MyNotes/blog",
-    "MyNotes/新建文件夹",
-    "MyNotes",
     "static/image/简历/file-20250803002226872.png",
     "static/image/简历/file-20250803002146051.png",
     "static/image/简历/file-20250803002132894.png",
