@@ -2,3 +2,9 @@
  .obsidian
  .obsidian/*  
  .vscode
+
+/.obsidian/app.json
+/.obsidian/app.json
+/MyNotes/blog/config.toml
+/MyNotes/blog/config.toml
+/.obsidian/workspace.json
