@@ -1,7 +1,7 @@
 {
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "static/image/若依框架网站漏洞分析",
+  "attachmentFolderPath": "MyNotes/blog/static/image",
   "newLinkFormat": "relative",
   "pdfExportSettings": {
     "includeName": true,
@@ -9,5 +9,7 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newFileLocation": "current",
+  "promptDelete": false
 }
