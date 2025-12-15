@@ -2,7 +2,7 @@
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "MyNotes/blog/static/image",
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
