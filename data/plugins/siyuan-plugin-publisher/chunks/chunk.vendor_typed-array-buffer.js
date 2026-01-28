@@ -1,0 +1,1 @@
+import{r as t}from"./chunk.vendor_es-errors.js";import{r as o}from"./chunk.vendor_call-bound.js";import{r as i}from"./chunk.vendor_is-typed-array.js";var r,a;function s(){if(a)return r;a=1;var f=t(),y=o(),u=y("TypedArray.prototype.buffer",!0),p=i();return r=u||function(e){if(!p(e))throw new f("Not a Typed Array");return e.buffer},r}export{s as r};

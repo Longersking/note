@@ -8,3 +8,10 @@
 /MyNotes/blog/config.toml
 /MyNotes/blog/config.toml
 /.obsidian/workspace.json
+/backup
+/conf
+/history
+/sync
+/temp
+/corrupted
+.DS_Store

@@ -1,0 +1,1 @@
+var t,n;function u(){if(n)return t;n=1;var r={}.toString;return t=Array.isArray||function(a){return r.call(a)=="[object Array]"},t}var i,e;function s(){if(e)return i;e=1;var r={}.toString;return i=Array.isArray||function(a){return r.call(a)=="[object Array]"},i}export{u as a,s as r};

@@ -1,0 +1,1 @@
+import{r as s}from"./chunk.vendor_call-bound.js";import{r as f}from"./chunk.vendor_is-regex.js";import{r as x}from"./chunk.vendor_es-errors.js";var e,t;function l(){if(t)return e;t=1;var a=s(),o=f(),u=a("RegExp.prototype.exec"),i=x();return e=function(r){if(!o(r))throw new i("`regex` must be a RegExp");return function(n){return u(r,n)!==null}},e}export{l as r};

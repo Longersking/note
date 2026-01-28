@@ -1,0 +1,191 @@
+{
+    "addTopBarIcon": "GIT同步插件",
+    "cancel": "取消",
+    "save": "保存",
+    "byeMenu": "再见，菜单！",
+    "helloPlugin": "你好，插件！",
+    "byePlugin": "再见，插件！",
+    "showDialog": "弹出一个对话框",
+    "removedData": "数据已删除",
+    "confirmRemove": "确认删除 ${name} 中的数据？",
+    "insertEmoji": "插入表情",
+    "removeSpace": "移除空格",
+    "getTab": "在日志中打印出已打开的所有自定义页签",
+    "name": "思源",
+    "dateValidate":"开始日期必须早于结束日期！",
+    "hello": {
+        "makesure": "使用这个模板之前，请阅读<a href=\"https://github.com/siyuan-note/plugin-sample\">官方教程</a>, 确保自己已经理解了插件的基本开发流程。"
+    },
+    "disclaimeTitle":"免责声明",
+    "disclaimeDesc":"本软件（以下简称“本软件”）由个人开发，旨在为用户提供笔记数据同步功能。使用本软件即表示您已阅读、理解并同意本免责声明的全部内容。<br> <strong>💻1. 数据安全</strong> <br> &nbsp&nbsp  🚀本软件在用户授权的前提下，通过 GitHub 或 Gitee 代码仓库平台的 API 接口将本地笔记文件同步至用户指定的 Git 仓库。<br>  &nbsp&nbsp 🚀本软件仅作为数据传输工具，不对数据的完整性、准确性或可用性作任何保证。<br>  &nbsp&nbsp 🚀由于不可抗力、硬件故障、软件缺陷、网络问题或第三方平台限制等原因导致的数据丢失、损坏或泄露，开发者不承担任何责任。<br>  &nbsp&nbsp 🚀由于本插件为个人开发，系统测试可能有限，<strong>建议用户启用思源笔记的快照功能或定期备份数据</strong>，以防数据丢失。<br>  &nbsp&nbsp 🚀 用户应理解并接受，<strong>使用本插件可能存在不可预见的风险</strong>，如数据丢失、损坏或同步错误。在适用法律允许的范围内，请用户用户应自行评估使用风险。<br>  &nbsp&nbsp 🚀 在适用法律允许的范围内，开发者不对因使用或无法使用本插件而导致的任何数据损失、业务中断或其他损害负责。<br>  <strong>💻2. 隐私与权限</strong>    <br>  &nbsp&nbsp 🚀本软件不会主动收集、存储或共享用户的个人信息，所有数据处理均在用户设备本地或用户授权的 Git 代码仓库中进行。<br>  &nbsp&nbsp 🚀    用户应妥善管理自己的 Git 账户、API 令牌（Token）及相关凭据，并对其数据安全和访问权限负责。<br>    <strong>💻3. 使用风险</strong>   <br> &nbsp&nbsp  🚀 本软件以“现状”提供，不对其适用性、可靠性、无错误性或兼容性作出任何保证。<br> &nbsp&nbsp  🚀   用户须自行承担使用本软件的风险，开发者不对因使用本软件引发的任何直接或间接损失承担责任，包括但不限于数据丢失、账户封禁、设备损坏或第三方责任等。<br>    <strong>💻4. 第三方服务依赖</strong>   <br> &nbsp&nbsp  🚀 本软件依赖 GitHub、Gitee 等第三方代码托管平台提供的 API 进行数据同步，相关服务的可用性、稳定性、安全性及政策变更由第三方平台决定，开发者无法控制亦不承担任何责任。<br>  &nbsp&nbsp 🚀   若 GitHub、Gitee 等平台发生访问受限、账号被封禁、API 调整或服务中断等情况，导致本软件无法正常使用，开发者不承担任何责任。<br>    <strong>💻5. 法律责任</strong>  <br>  &nbsp&nbsp 🚀  用户不得利用本软件进行任何违法、违规或侵权行为，否则由用户自行承担相应法律责任。<br>  &nbsp&nbsp 🚀    若因法律法规或政策调整导致本软件无法继续提供服务，开发者有权随时终止本软件的维护和更新，而无需对用户承担任何责任。<br>    <strong>💻6. 免责声明的更新</strong>   <br> &nbsp&nbsp  🚀 本免责声明可能会根据软件更新或法律要求进行调整，用户应不定期查阅最新版本。<br> <br>    <strong>使用本软件即表示您已充分理解并接受本免责声明的所有条款。如不同意本免责声明，请立即停止使用本软件。</strong>",
+
+    "hintTitle": "关于",
+    "hintDesc": "<a href=\"https://qm.qq.com/q/fGxb6p0u3u\">👥思源-git同步插件反馈群（QQ群：1015180920）</a><br><a href=\"https://kdocs.cn/l/caGt3BWn9r5G\">📄项目详细说明文档</a><br><a href=\"https://kdocs.cn/l/cf8qSfWUdi1O\">📄FAQ常见问题答疑</a><br>💻 @xstarling<br>",
+    
+    "startSync":"开始同步",
+    "refreshOrRecover":"刷新/更新数据",
+    "refreshWSTree":"刷新文件树",
+    "refreshWSTreeTips":"解决ID未找到！",
+    "recoverAssets":"更新资源路径",
+    "recoverAssetsTips":"恢复本地文件资源路径！",
+    "syncHistory":"同步历史",
+    "setting":"设置",
+    "feePlan":"套餐计划",
+    "platformType":"平台类型",
+    "platformTypeDesc":"选择后将使用该类型平台实现云端同步和备份功能,如：云盘、git平台",
+    "subGitPlatformType":"git平台类型",
+    "subGitplatformTypeDesc":"具体的存放数据的平台，如:gitee/github等",
+    "subCloudPlatformType":"云盘平台类型",
+    "subCloudplatformTypeDesc":"具体的存放数据的平台，如:百度网盘/阿里网盘等",
+    "gitRepoAddress":"git仓库地址",
+    "gitRepoAddressPlaceHolder":"https://gitee.com/xxxx/xxx",
+    "gitRepoAddressDesc":"请输入github/gitee仓库中https或ssh的地址（全路径）",
+    "cloudAddress":"网盘地址",
+    "cloudAddressPlaceHolder":"https://www.baidu.com/xxx/xxx",
+    "cloudAddressDesc":"请输入网盘中https或其他协议的地址（全路径）",
+    "gitRepoName":"git仓库名称",
+    "gitRepoNameDesc":"请输入要同步到github/gitee仓库的仓库名称",
+    "gitRepoBranch":"git仓库分支名",
+    "gitRepoBranchPlaceHolder":"master",
+    "gitRepoBranchDesc":"请输入要同步到github/gitee仓库的分支名称",
+    "gitUserName":"git平台用户名",
+    "gitUserNameDesc":"github或gitee平台的账号名",
+    "cloudUserName":"网盘用户名",
+    "cloudUserNamePlaceHolder":"王小儿",
+    "cloudUserNameDesc":"百度网盘或阿里网盘等平台的账号名",
+    "gitUserEmail":"邮箱",
+    "gitUserEmailPlaceHolder":"username@example.com",
+    "gitUserEmailDesc":"提交同步笔记数据时的用户邮箱，会显示在历史提交记录中",
+    "ignoreFile":"忽略文件",
+    "ignoreFilePlaceHolder":"例(英文格式的分号隔开）：.lock;data/*;conf/local.json;data/*.sy",
+    "ignoreFileDesc":"同步笔记数据时，忽略文本框中的文件，【注】.lock;temp/* 等这些文件不会被同步",
+    "assetPrefix":"资源文件路径(必须以【assets/】结尾）",
+    "assetPrefixPlaceHolder":"/data/assets：“/”开头，表示从根路径寻址\ndata/assets:非“/”开头，则从引用资源文件的文件的同级目录寻址",
+    "assetPrefixDesc":"设置此路径，将替换思源笔记文件中的资源路径【assets/imgxxx.png】为【设置的路径/imgxxx.pn】",
+    "gitTokenORkey":"私人令牌/token",
+    "gitTokenORkeyDesc":"登录github/gitee生成私人令牌或token用于授权访问远程仓库",  
+    "cloudTokenKey":"密码/token",
+    "cloudTokenKeyDesc":"登录网盘的用户密码或私人访问的令牌或token，用于授权访问网盘数据",
+    "enableSync":"启用同步",
+    "enableSyncDesc":"从禁用改为启用时建议手动点击同步按钮触发一次同步",
+    "syncGenConflictFile":"同步冲突时生成冲突文档",
+    "syncGenConflictFileDesc":"启用后当同步发生冲突时会在本地生成冲突文档，以便直接打开查看,关闭后，会弹框提示冲突信息，但不会生成冲突文档",
+    "noteType":"笔记格式",
+    "noteTypeDesc":"启用云端同步后可进一步选择同步远端的笔记文件的格式",
+
+    "syncRange":"同步范围",
+    "syncRangeDesc":"启用云端同步后可进一步选择同步范围，【工作空间】、【数据目录】：工作空间下data目录、【笔记文件】：仅仅同步笔记文件，插件的不会被同步",
+    "workSpace":"工作空间",
+    "dataFile": "数据目录（data目录）",
+    "noteFile":"笔记文件",
+    
+    "syncStrategy":"同步策略",
+    "syncStrategyDesc":"启用云端同步后可进一步选择同步策略，【手动同步】：弹框用户选择云端覆盖或本地覆盖、【自动同步】：系统自动对比文件同步内容、【云端覆盖本地】：不会弹框，直接将云端拉取覆盖本地、【本地覆盖云端】：不会弹框，直接将本地推送覆盖云端",
+    "autoSyncStrategy":"自动同步",
+    "manualSyncStrategy":"手动同步",
+    "keepRemoteCover":"云端覆盖本地",
+    "keepLocalCover":"本地覆盖云端",
+
+    "syncMode":"同步模式",
+    "syncModeDesc":"启用GIT远程同步后可进一步选择同步模式",
+    "autoSync":"自动同步",
+    "manualSync":"手动同步（仅 启动时 自动同步一次）",
+    "fullManualSync":"完全手动同步（完全手动进行同步，包括启动/关闭）",
+    "syncInterval":"同步间隔(秒）",
+    "syncIntervalDesc":"数据不再变动后自动进行数据同步的时间间隔",
+    "latestCommitSha":"上次提交SHA值",
+    "latestCommitShaDesc":"当前设备最近的一次提交的哈希值",
+    "latestCommitTime":"上次提交时间",
+    "latestCommitTimeDesc": "当前设备最近的一次提交时间",
+    "fileSyncSuccess":"✅文件同步成功",
+    "fileConflictInfo":"⚠文档冲突:",
+    "fileSyncFailed":"❌文件同步失败:请重新尝试，或联系开发者",
+    "fileSizeOver":"的文件大小超过",
+    "fileSliceCommitSuccess":"✅分片提交成功",
+    "fileSliceCommitFailed":"❌分片提交失败",
+    "createFileTreeFailed":"❌创建文件提交树失败",
+    "getCommitsFailed":"❌获取提交记录失败：",
+    "getBranchFailed":"❌获取分支信息失败：",
+    "getRepoFileFailed":"❌获取仓库文件失败",
+    "createPullRequestFailed":"❌ 创建 Pull Request 失败：",
+    "createPullRequestSuccess":"✅ 创建 Pull Request 成功：",
+    "deleteFileSuccess":"✅ 文件删除成功",
+    "deleteFileFailed":"❌ 文件删除失败",
+    "compareBranchFailed":"❌ 分支比较失败",
+    "getGitTreeFailed":"❌ 获取 Git 提交树失败:",
+    "getFileContentFailed":"❌ 获取文件内容失败：",
+    "fileCreateUpdateSuccess":"✅ 文件创建/更新成功",
+    "fileCreateUpdateFailed":"❌ 文件创建/更新失败",
+
+    "fileCreateUpdateEmpty":"文件是空文件：",
+
+    "binFileCompareNot":"暂不支持二进制文件对比",
+    "commitsNoFile":"提交记录没有此文件",
+    "saveFileWorkSpace":"文件已保存到工作空间目录:",
+    "confirm_title_info": "提示",
+    "confirm_title_warn": "警告",
+    "confirm_title_error": "错误",
+    "confirm_modifyrepo_reset_commit": "仓库地址/仓库名/用户名已经变更，是否重置本地最新提交记录？",
+    "confirm_rollback_title":"提示",
+    "confirm_rollback_text":"当前工作空间中同路径下的同文件ID的文件将会被覆盖，且不可撤销",
+
+    "warnFinishSettingConfig":"⚠️请完善【设置】中的配置信息",
+    "enableSyncTips":"请在【设置】启用同步功能",
+
+    "checkNetworkLink":"请检查网络连接/设置界面的token配置，然后重启思源笔记或本插件",
+
+    "initCheckNet":"获取远端提交信息失败，请初始化远端仓库 / 检查设置界面的token配置是否正确 / 检查网络连接",
+
+    "noCommitFile":"没有修改的文件/提交的文件无差异",
+
+    "isSyncingInfo":"⚠️正在同步/更新中",
+
+    "updateLocalAssetsPathInfo": "⚠️ 开始更新本地资源文件路径",
+    "updateLocalAssetsPathSucc":"✅ 更新本地资源文件路径成功",
+    "updateLocalAssetsPathFailed":"❌ 更新本地资源文件路径失败，请重新尝试！",
+    "siyuanFile":"思源笔记",
+    "markdownFile":"Markdown",
+
+    "selectUpload":"⚠️ 请选择同步方向",
+
+    "backupFailed":"系统自动备份失败，请手动备份文件到安全目录，再同步数据",
+    "confirm_modifyworkspace_commit":"⚠️ 同步范围修改后，数据同步会删除远端非同步范围内容的数据，请确认是否修改？",
+    "confirm_sync_refresh_fileTree":"数据同步已经完成，部分新增同步数据文件树索引丢失(导致文件找不到ID值），请确认是否重新建立文件树索引？",
+    "confirm_switch_noteFormat_sync":"⚠️ 笔记格式已经切换，需要执行一次本地覆盖远端，才能保持远端与本地笔记格式一致，请确认是否立即执行【本地文件覆盖远端】操作（旧的笔记格式的文件会被删除）？",
+    "confirm_assetsPrefix_illegal":"⚠️ 资源文件路径前缀必须以\"assets\"或\"assets/\"结尾\n【确定】在路径后面追加\"assets\";【取消】清空输入的资源路径前缀",
+
+    "error":{
+        "setting":{
+            "reconfig_platform":"插件【设置】中【平台类型】错误，系统已重新选择默认平台"
+        }
+    },
+
+    "platform":{
+        "git":"Git平台",
+        "cloud":"云盘",
+        "subPlatform":{
+            "git":{
+                "giteeAPI":"gitee(API)",
+                "githubAPI":"github(API)"
+            },
+            "cloud":{
+                "baidu":"百度网盘",
+                "ali":"阿里网盘"
+            }
+        }
+    },
+
+    "message":{
+        "info":{
+
+        },
+        "warn":{
+            "logfileClearWarn":"⚠️大日志文件已经打包，请根据需要及时进行清理！"
+        },
+        "error":{
+
+        }
+    }
+
+    
+}

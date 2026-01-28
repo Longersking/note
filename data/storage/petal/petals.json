@@ -1,0 +1,24 @@
+[
+	{
+		"name": "siyuan-plugin-publisher",
+		"displayName": "发布工具",
+		"enabled": true,
+		"incompatible": false,
+		"disabledInPublish": false,
+		"disallowInstall": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "GIT-SYNC-PLUGIN",
+		"displayName": "GIT同步插件",
+		"enabled": true,
+		"incompatible": false,
+		"disabledInPublish": false,
+		"disallowInstall": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	}
+]

@@ -1,0 +1,190 @@
+{
+    "addTopBarIcon": "git sync plugin",
+    "cancel": "Cancel",
+    "save": "Save",
+    "byeMenu": "Bye, Menu!",
+    "helloPlugin": "Hello, Plugin!",
+    "byePlugin": "Bye, Plugin!",
+    "showDialog": "Show dialog",
+    "removedData": "Data deleted",
+    "confirmRemove": "Confirm to delete the data in ${name}?",
+    "insertEmoji": "Insert Emoji",
+    "removeSpace": "Remove Space",
+    "getTab": "Print out all opened custom tabs in the debugger",
+    "name": "SiYuan",
+    "dateValidate":"Start date must be earlier than end date!",
+    "hello": {
+        "makesure": "Before using this template, please read the <a href=\"https://github.com/siyuan-note/plugin-sample\">offical sample</a>, make sure that you've known about the pipeline for plugin developing."
+    },
+    "disclaimeTitle":"Disclaimer of Interest",
+    "disclaimeDesc":"The Software (hereinafter referred to as the \"Software\") is developed by an individual and is designed to provide users with the function of synchronizing note data. By using the Software, you signify that you have read, understood and agreed to the entire contents of this disclaimer. <br> <strong>💻1. Data security </strong> <br> &nbsp&nbsp 🚀 Under the premise of user authorization, the software synchronizes local note files to the Git repository specified by users through the API interface of GitHub or Gitee code repository. <br> &nbsp&nbsp 🚀 The software is used only as a data transmission tool and does not guarantee the completeness, accuracy or availability of the data. <br> &nbsp&nbsp 🚀 The Developer shall not be liable for any loss, damage or disclosure of data due to force majeure, hardware failure, software defects, network problems or third-party platform restrictions. <br> &nbsp&nbsp 🚀 Because this plug-in is developed by individuals, system testing may be limited, <strong> users are advised to enable the snapshot function of Sisource Notes or backup data </strong> regularly to prevent data loss. <br> &nbsp&nbsp 🚀 Users should understand and accept that there may be unforeseen risks </strong> with this plug-in, such as data loss, corruption, or synchronization errors. To the extent permitted by applicable law, Users should assess the risks of use on their own. <br> &nbsp&nbsp 🚀 To the extent permitted by applicable law, the Developer shall not be liable for any loss of data, business disruption, or other damage arising from the use or inability to use this Plugin. <br> <strong>💻2. Privacy and rights </strong> <br> &nbsp&nbsp 🚀 The software will not actively collect, store or share users' personal information, and all data processing is carried out locally on users' devices or in Git code repositories authorized by users. <br> &nbsp&nbsp 🚀 Users should properly manage their Git accounts, API tokens, and related credentials and be responsible for their data security and access rights. <br> <strong>💻3. Risks of Use </strong> <br> &nbsp&nbsp 🚀 The Software is provided \"AS IS\" without any warranty of suitability, reliability, error-free, or compatibility. <br> &nbsp&nbsp 🚀 Users use the Software at their own risk, and the Developer shall not be liable for any direct or indirect losses arising from the use of the Software, including but not limited to data loss, account blocking, equipment damage or third-party liability. <br> <strong>💻4. Third-party service dependence </strong> <br> &nbsp&nbsp 🚀 The software relies on API provided by GitHub, Gitee and other third-party code hosting platforms for data synchronization. The availability, stability, security and policy changes of the relevant services are determined by the third party platform and are not under the control and responsibility of the Developer. <br> &nbsp&nbsp 🚀 If the software cannot be used normally due to access restriction, account suspension, API adjustment or service interruption on GitHub, Gitee and other platforms, the developer shall not be liable for any reason. <br> <strong>💻5. Legal liability </strong> <br> &nbsp&nbsp 🚀 The user shall not use the Software for any illegal, illegal or infringing acts, otherwise the user shall bear the corresponding legal liability. <br> &nbsp&nbsp 🚀 If the Software cannot continue to provide services due to laws, regulations or policy adjustments, the developer has the right to terminate the maintenance and update of the Software at any time without taking any responsibility to the user. <br> <strong>💻6. Updates to this Disclaimer </strong> <br> &nbsp&nbsp 🚀 This disclaimer may be adjusted based on software updates or legal requirements, and users should review the latest version from time to time. <br> <br> <strong> By using the Software, you fully understand and accept all terms of this disclaimer. If you do not agree with this disclaimer, please stop using the software immediately. </strong>",
+    "hintTitle":"About",
+    "hintDesc":"<a href = \"https://qm.qq.com/q/fGxb6p0u3u\" > 👥 siyuan group - the git plug-in feedback (QQ group: 1015180920) </a> <br> <a href = \"https://kdocs.cn/l/caGt3BWn9r5G\" > 📄 project detailed document </a> <br><a href=\"https://kdocs.cn/l/cf8qSfWUdi1O\">📄Frequently Asked Questions and Answers</a><br>💻 @ xstarling <br>",
+    
+    "startSync":"Start sync ",
+    "refreshOrRecover":" Refresh/Update data",
+    "refreshWSTree":" Refresh file tree",
+    "refreshWSTreeTips":" Fixed ID Not found!" ,
+    "recoverAssets":" Update Resource Path",
+    "recoverAssetsTips":" Restore the local file resource path!" ,
+    "syncHistory":"Synchronization history ",
+    "setting":"Setting",
+    "feePlan":"Package Plan",
+    "platformType":" Platform type ", 
+    "platformTypeDesc":" After selection, the cloud synchronization and backup functions will be implemented using this type of platform, such as: cloud disk, git platform.",
+    "subGitPlatformType":"git PlatformType",
+    "subGitplatformTypeDesc":" The specific platform for storing data, such as :gitee/github, etc.",
+    "subCloudPlatformType":" Cloud disk PlatformType",
+    "subCloudplatformTypeDesc":" The specific platform for storing data, such as: Baidu Netdisk/Alibaba Netdisk, etc.",
+    "gitRepoAddress":"git repository address",
+    "gitRepoAddressPlaceHolder":"https://gitee.com/xxxx/xxx",
+    "gitRepoAddressDesc":"Please enter the address (full path) of https or ssh in the github/gitee repository ",
+    "cloudAddress":" Cloud disk address ", 
+    "cloudAddressPlaceHolder":"https://www.baidu.com/xxx/xxx",
+    "cloudAddressDesc":" Please enter the address of https or other protocols in the cloud disk (full path)",
+    "gitRepoName":"git repository name ",
+    "gitRepoNameDesc":"Please enter the name of the warehouse you want to sync to the github/gitee warehouse ",
+    "gitRepoBranch":"git repository branch name ",
+    "gitRepoBranchPlaceHolder":"master",
+    "gitRepoBranchDesc":"Please enter the name of the branch you want to sync to the github/gitee repository ",
+    "gitUserName" :"git platform username ",
+    "gitUserNameDesc":"github or gitee account name ",
+    "cloudUserName":" Cloud disk user name ", 
+    "cloudUserNamePlaceHolder":"Jhone",
+    "cloudUserNameDesc":" Account name on platforms such as Baidu Netdisk or Alibaba Netdisk",
+    "gitUserEmail":"Mailbox ",
+    "gitUserEmailPlaceHolder":"username@example.com",
+    "gitUserEmailDesc":"The user's email address when synchronizing note data is submitted will be displayed in the submission history ",
+    "ignoreFile":"Ignore file ",
+    "ignoreFilePlaceHolder": "Example (separated by semicolons in English format) :.lock; data/*; conf/local.json; data/*.sy", 
+    "ignoreFileDesc":" When synchronizing note data, ignore the files in the text box. [Note] :.lock; Files such as temp/* will not be synchronized.",
+    "assetPrefix":" Resource file path (Must end with [assets/])",
+    "assetPrefixPlaceHolder":"/data/assets: Starting with \"/ \"indicates addressing from the root path \ndata/assets: Not beginning with \"/\", addressing from the same-level directory of the file that references the resource file",
+    "assetPrefixDesc":" Setting this path will replace the resource path [assets/imgxxx.png] in the Source note file with [Set path /imgxxx.pn]",
+    "gitTokenORkey":" Private token /token",
+    "gitTokenORkeyDesc":" Login to github/gitee to generate a private token or token for authorized access to a remote repository ",
+    "cloudTokenKey":" Password /token", 
+    "cloudTokenKeyDesc":" The password of the user logging into the cloud disk or the private access token or token used to authorize access to the cloud disk data",
+    "enableSync" :"Enable synchronization ",
+    "enableSyncDesc":"It is recommended to manually click the sync button to trigger a sync when changing from disabled to enabled ",
+    "syncGenConflictFile":"Generate conflict documents when synchronizing conflicts ",
+    "syncGenConflictFileDesc":" When enabled, when a synchronization conflict occurs, a conflict document will be generated locally for direct opening and viewing. When turned off, a pop-up will prompt conflict information, but no conflict document will be generated.",
+    "noteType": "Note Format",
+    "noteTypeDesc":" After cloud synchronization is enabled, you can further select the format for synchronizing remote note files ",
+    
+    "syncRange": "Synchronization range",
+    "syncRangeDesc":" After enabling cloud synchronization, you can further select the synchronization range, [workspace], [data directory] : Data directory in the workspace, [note files] : only note files are synchronized, plug-ins will not be synchronized ",
+    "workSpace":" Workspace ",
+    "dataFile": "data directory ",
+    "noteFile":" note file",
+
+    "syncStrategy":" Synchronization strategy ",
+    "syncStrategyDesc" :" After cloud synchronization is enabled, you can further select a synchronization policy. [Manual synchronization] : The user selects cloud coverage or local coverage, [Automatic synchronization] : the system automatically compares file synchronization content, [cloud coverage local] : The cloud is not displayed, and the cloud is directly pulled down to cover local, [local cloud coverage] : Will not bounce, directly local push to cover the cloud ",
+    "autoSyncStrategy":" Automatic synchronization ",
+    "manualSyncStrategy" :" Manual synchronization ",
+    "keepRemoteCover":" Cloud overlay local ",
+    "keepLocalCover":" Local overlay cloud ",
+
+    "syncMode":"Synchronization mode ",
+    "syncModeDesc":"Enable GIT remote synchronization to further select the synchronization mode ",
+    "autoSync":"Auto sync ",
+    "manualSync":"Manual sync (automatically sync once only when starting) ",
+    "fullManualSync":"Full manual synchronization (complete manual synchronization, including startup/shutdown) ",
+    "syncInterval":"Synchronization interval (seconds) ",
+    "syncIntervalDesc":"Time interval for automatic data synchronization after data is no longer changed ",
+    "latestCommitSha":"Last committed SHA value ",
+    "latestCommitShaDesc":"Hash of the most recent commit of the current device ",
+    "latestCommitTime":"Last commit time ",
+    "latestCommitTimeDesc": "The last commit time of the current device ",
+    "fileSyncSuccess": "✅ File synchronization succeeded.",
+    "fileConflictInfo":"⚠Document conflict :",
+    "fileSyncFailed": "❌ file synchronization failed: Please try again, or contact the developer",
+    "fileSizeOver":" File size exceeds ",
+    "fileSliceCommitSuccess":"✅ fragment submission success ",
+    "fileSliceCommitFailed":"❌ fragment submission failed ",
+    "createFileTreeFailed":"❌ Failed to create a file submission tree ",
+    "getCommitsFailed":"❌ Failed to obtain the commit record :",
+    "getBranchFailed":"❌ Failed to obtain branch information :",
+    "getRepoFileFailed":"❌ failed to obtain the repository file ",
+    "createPullRequestFailed":"❌ Failed to create the PullRequest :",
+    "createPullRequestSuccess":"✅ The PullRequest was created successfully :",
+    "deleteFileSuccess":"✅ The file is deleted successfully ",
+    "deleteFileFailed":"❌ file deletion failed ",
+    "compareBranchFailed":"❌ branch comparison failed ",
+    "getGitTreeFailed":"❌ Failed to getGit commit tree :",
+    "getFileContentFailed":"❌ Failed to obtain the file content :",
+    "fileCreateUpdateSuccess":"✅ file created/updated successfully ",
+    "fileCreateUpdateFailed":"❌ file creation/update failed ",
+
+    "fileCreateUpdateEmpty":" File is empty file :",
+
+    "binFileCompareNot":" Binary file comparison is not supported yet ",
+    "commitsNoFile":" Commitsnofile is absent ",
+    "saveFileWorkSpace":" File saved to workspace directory :",
+    "confirm_title_info": "Tips",
+    "confirm_title_warn": "Warning ",
+    "confirm_title_error": "Error ",
+    "confirm_modifyrepo_reset_commit": "If the repository address / repository name / user name has changed, do I reset the latest local commit record?",
+    "confirm_rollback_title" :"Tips",
+    "confirm_rollback_text":"Files with the same file ID in the same path in the current workspace will be overwritten and irrevocable",
+
+    "warnFinishSettingConfig":"⚠️ Please improve the configuration information in [Settings]",
+    "enableSyncTips":" Please enable synchronization in [Settings]",
+
+    "checkNetworkLink":" Please check the token configuration on the network connection/Settings screen, and then restart Siyuan Note or this plug-in",
+
+    "initCheckNet":" Failed to obtain the remote submission information, please initialize the remote repository / check whether the token configuration on the setup interface is correct / check the network connection ",
+
+    "noCommitFile":" No modified files/No differences in submitted files",
+
+    "isSyncingInfo":"⚠️ synchronizingIn synchronization / update",
+
+    "updateLocalAssetsPathInfo" : "⚠️ Began to update the local resource file path",
+    "updateLocalAssetsPathSucc" : "✅ The path of the local resource file was updated successfully",
+
+    "updateLocalAssetsPathFailed" : "❌ The path of the local resource file was updated failed, please try again!",
+
+    "siyuanFile":" Notes of Siyuan ", 
+    "markdownFile":"Markdown",
+
+    "selectUpload":"⚠️ Select a synchronization direction",
+
+    "backupFailed":" The system's automatic backup failed. Please manually backup the files to a secure directory and then synchronize the data.",
+    "confirm_modifyworkspace_commit":"⚠️ After the synchronization range is modified, the data synchronization will delete the data of the remote out-of-synchronization range content, please confirm whether it is modified?",
+    "confirm_sync_refresh_fileTree":" Data synchronization has been completed. The file tree indexes of some newly synchronized data are lost. Please confirm whether to re-establish the file tree indexes?",
+    "confirm_switch_noteFormat_sync":"⚠️ The note format has been switched and a local overwrite is needed to keep the remote format consistent with the local note format, please confirm whether the [local file overwrite remote] operation is performed immediately (files of the old note format will be deleted)?",
+    "confirm_assetsPrefix_illegal":"⚠️ the prefix of the resource file path must end with \"assets\" or \"assets/\" \n【 confirm 】 append \"assets\" after the path; 【 Cancel 】 Clear the input resource path prefix",
+
+    "error":{
+        "setting":{
+            "reconfig_platform":"The [Platform Type] in the plugin's [Settings] is incorrect. The system has reselected the default [Git Platform]."
+        }
+    },
+
+    "platform":{
+        "git": "Git platform",
+        "cloud": "Cloud disk",
+        "subPlatform":{
+            "git":{
+                "giteeAPI":"gitee(API)",
+                "githubAPI":"github(API)"
+            },
+            "cloud":{
+                "baidu": "Baidu Netdisk",
+                "ali": "Alibaba Netdisk" 
+            }
+        }
+    },
+
+    "message":{
+        "info":{
+
+        },
+        "warn":{
+            "logfileClearWarn":"⚠️The large log file has been packaged. Please clean it up in a timely manner as needed!"
+        },
+        "error":{
+
+        }
+    }
+}
